@@ -1,0 +1,18 @@
+@import "../sasslib/normalize";
+@import "core/variables";
+@import "core/mixins";
+@import "core/fonts";
+// examples of usage
+body {
+    font-size: $base-font-size;
+}
+
+.container {
+    &__content {
+        @include breakpoint(768) {
+            color: $white;
+        }
+        @include linear-gradient(100deg, #555555 0%, #000000 100%);
+        @include handyFont('Arial', .8em, #000, normal, 150%) // disclaimer styling
+    }
+}

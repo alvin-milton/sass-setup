@@ -1,0 +1,9 @@
+// roundedCorners mixin
+// .button{
+//   @include roundedCorners(10);
+// }
+@mixin roundedCorners($size) {
+    -webkit-border-radius: $size + px;
+    -moz-border-radius: $size + px;
+    border-radius: $size + px;
+}

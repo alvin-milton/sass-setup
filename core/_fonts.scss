@@ -1,0 +1,17 @@
+// Define fonts here
+// Hint: https://transfonter.org/
+@font-face {
+    font-family: 'Publico Headline';
+    src: url('../fonts/PublicoHeadline-Light.eot');
+    src: url('../fonts/PublicoHeadline-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/PublicoHeadline-Light.woff2') format('woff2'), url('../fonts/PublicoHeadline-Light.woff') format('woff'), url('../fonts/PublicoHeadline-Light.ttf') format('truetype'), url('../fonts/PublicoHeadline-Light.svg#PublicoHeadline-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Publico Banner';
+    src: url('../fonts/PublicoBanner-Medium.eot');
+    src: url('../fonts/PublicoBanner-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/PublicoBanner-Medium.woff2') format('woff2'), url('../fonts/PublicoBanner-Medium.woff') format('woff'), url('../fonts/PublicoBanner-Medium.ttf') format('truetype'), url('../fonts/PublicoBanner-Medium.svg#PublicoBanner-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
